@@ -1,0 +1,28 @@
+.poster {
+    background: $color-background;
+    padding: 23px 0;
+}
+.poster__wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.poster__content {
+    width: 854px;
+    height: 540px;
+    background-image: url("../img/backgrounds/poster-background.svg");
+    border-radius: 5px;
+}
+
+.announcements_content {
+    width: 416px;
+    height: 502px;
+    background-color: $color-background-light;
+    border-radius: 0px 0px 5px 5px;
+}
+
+.announcements_img {
+    padding: 32px 0 0 32px;
+}
+

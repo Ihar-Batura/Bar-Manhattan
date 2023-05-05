@@ -1,0 +1,61 @@
+.button {
+    font-family: 'Roboto', sans-serif; // в кнопка по умолчанию стоит шрифт Arial
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1.4rem;
+    line-height: 2.1rem;
+    letter-spacing: 0.05em;
+    border-radius: 5px;
+    text-transform: uppercase;
+    padding: 15px 30px;
+    cursor: pointer;
+    transition: all 0.3s;
+}
+
+.button_bordered {
+    background: $color-background;
+    border: 2px solid $color-brand;
+    color: $color-light;
+}
+
+.button_colored {
+    background: $color-brand;
+    color: $color-light;
+    border: 2px solid $color-brand;
+}
+
+.button_bordered:hover {
+    background: $color-brand;
+}
+
+.button_colored:hover {
+    background: $color-hover;
+    border-color: $color-hover;
+}
+
+.bookmark {
+    font-family: 'Oswald', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 1.4rem;
+    line-height: 2.1rem;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+    width: 208px;
+    color: $color-light;
+    border-radius: 5px 5px 0px 0px;
+    padding: 12px 48px 7px;
+    cursor: pointer;
+}
+
+.bookmark_next {
+    background-color: $color-background-light;
+}
+    
+.bookmark_soon {
+    background-color: $color-background-dark;
+}
+
+.bookmark:hover{
+    color: $color-brand;
+}
